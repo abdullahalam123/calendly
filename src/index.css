@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Proxima Nova, Proxima Nova Bold, Proxima Nova Semibold, Proxima Nova Semibold, Proxima Nova Semibold, Proxima Nova Extra Condensed Thin, Proxima Nova Extra Condensed Thin";
+  src: url("/fonts/proxima-nova.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  background-color: #fbfcfd;
+  font-family: "Proxima Nova", Arial, sans-serif;
+}
